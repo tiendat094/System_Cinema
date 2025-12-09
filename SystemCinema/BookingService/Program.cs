@@ -1,0 +1,35 @@
+using BookingService.Infrastructure.Data;
+using Serilog;
+using ShareLibrary.DB;
+using ShareLibrary.Logs;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Host.UseSerilog((context, services, configuration) =>
+{
+    LoggingConfiguration.ConfigureShared(context.Configuration, configuration);
+});
+builder.Services.AddControllers();
+builder.Services.AddServiceInfrastructure<BookingContext>(builder.Configuration);
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+app.UseSerilogRequestLogging();
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

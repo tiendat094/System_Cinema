@@ -1,0 +1,1 @@
+[ 01:51:27.290 +07:00 ERR] MovieService An error occurred using the connection to database 'MovieDB' on server 'tcp://localhost:5432'.

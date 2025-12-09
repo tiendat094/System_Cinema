@@ -1,0 +1,736 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\movieservice\\infrastructure\\migrations\\20251209095800_add_table_seat_status_in_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\infrastructure\\migrations\\20251209095800_add_table_seat_status_in_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\manager\\movies\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\movies\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\infrastructure\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\infrastructure\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\bookingservice\\model\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\model\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\model\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\model\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\movieservice\\model\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\model\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\movieservice\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\controllers\\showtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\controllers\\showtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\bookingservice\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\bookingservice\\manager\\bookingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\manager\\bookingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\bookingservice\\model\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\model\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\movieservice\\manager\\rooms\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\rooms\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\movieservice\\manager\\rooms\\dto\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\rooms\\dto\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\manager\\showtimes\\showtimemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\showtimes\\showtimemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\movieservice\\manager\\seats\\seatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\seats\\seatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|d:\\hoctap\\microservice\\cgv\\systemcinema\\movieservice\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\manager\\cinemas\\cinemamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\cinemas\\cinemamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\manager\\cinemas\\dto\\createcinemadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\cinemas\\dto\\createcinemadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD2E07A1-8C29-4B70-9E85-E7E53F0790DE}|Gateway\\Gateway.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD2E07A1-8C29-4B70-9E85-E7E53F0790DE}|Gateway\\Gateway.csproj|solutionrelative:gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166F977C-55D7-421B-8B48-E9528C0580FB}|AuthService\\AuthService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166F977C-55D7-421B-8B48-E9528C0580FB}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\controllers\\genercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\controllers\\genercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\model\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\model\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\model\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\model\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166F977C-55D7-421B-8B48-E9528C0580FB}|AuthService\\AuthService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\authservice\\model\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166F977C-55D7-421B-8B48-E9528C0580FB}|AuthService\\AuthService.csproj|solutionrelative:authservice\\model\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\sharelibrary\\core\\paging\\pagedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|solutionrelative:sharelibrary\\core\\paging\\pagedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\sharelibrary\\core\\paging\\pagedresultrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|solutionrelative:sharelibrary\\core\\paging\\pagedresultrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\model\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\model\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\bookingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{629938DF-04C4-400E-9394-09C7B114AC80}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166F977C-55D7-421B-8B48-E9528C0580FB}|AuthService\\AuthService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\authservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{166F977C-55D7-421B-8B48-E9528C0580FB}|AuthService\\AuthService.csproj|solutionrelative:authservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\infrastructure\\migrations\\20251205110742_update_schema_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\infrastructure\\migrations\\20251205110742_update_schema_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\manager\\movies\\dto\\createorupdatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\movies\\dto\\createorupdatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\sharelibrary\\messagebroker\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|solutionrelative:sharelibrary\\messagebroker\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\sharelibrary\\messagebroker\\rabbitproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|solutionrelative:sharelibrary\\messagebroker\\rabbitproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\manager\\movies\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\movies\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\sharelibrary\\sharelibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC1B2B47-0F08-477A-AA1F-5AD690E0DF66}|ShareLibrary\\ShareLibrary.csproj|solutionrelative:sharelibrary\\sharelibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\movieservice\\manager\\genres\\genremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639FBC50-84DA-4A54-801C-070A3B0F735D}|MovieService\\MovieService.csproj|solutionrelative:movieservice\\manager\\genres\\genremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 328,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251209095800_add_table_seat_status_in_booking.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Infrastructure\\Migrations\\20251209095800_add_table_seat_status_in_booking.cs",
+              "RelativeDocumentMoniker": "MovieService\\Infrastructure\\Migrations\\20251209095800_add_table_seat_status_in_booking.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Infrastructure\\Migrations\\20251209095800_add_table_seat_status_in_booking.cs",
+              "RelativeToolTip": "MovieService\\Infrastructure\\Migrations\\20251209095800_add_table_seat_status_in_booking.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:58:19.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Seat.cs",
+              "RelativeDocumentMoniker": "MovieService\\Model\\Seat.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Seat.cs",
+              "RelativeToolTip": "MovieService\\Model\\Seat.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwBwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:41:59.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieService\\Controllers\\MovieController.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieService\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T03:26:44.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShowTimeController.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\ShowTimeController.cs",
+              "RelativeDocumentMoniker": "MovieService\\Controllers\\ShowTimeController.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\ShowTimeController.cs",
+              "RelativeToolTip": "MovieService\\Controllers\\ShowTimeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T04:06:23.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowTime.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\ShowTime.cs",
+              "RelativeDocumentMoniker": "MovieService\\Model\\ShowTime.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\ShowTime.cs",
+              "RelativeToolTip": "MovieService\\Model\\ShowTime.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T03:51:34.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Room.cs",
+              "RelativeDocumentMoniker": "MovieService\\Model\\Room.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Room.cs",
+              "RelativeToolTip": "MovieService\\Model\\Room.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:21:16.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingSeat.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Model\\BookingSeat.cs",
+              "RelativeDocumentMoniker": "BookingService\\Model\\BookingSeat.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Model\\BookingSeat.cs",
+              "RelativeToolTip": "BookingService\\Model\\BookingSeat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:42:48.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Infrastructure\\Data\\MovieContext.cs",
+              "RelativeDocumentMoniker": "MovieService\\Infrastructure\\Data\\MovieContext.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Infrastructure\\Data\\MovieContext.cs",
+              "RelativeToolTip": "MovieService\\Infrastructure\\Data\\MovieContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBIAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:33:05.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieManager.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Movies\\MovieManager.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Movies\\MovieManager.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Movies\\MovieManager.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Movies\\MovieManager.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAjwF0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T10:56:48.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Model\\Booking.cs",
+              "RelativeDocumentMoniker": "BookingService\\Model\\Booking.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Model\\Booking.cs",
+              "RelativeToolTip": "BookingService\\Model\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:42:43.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoomManager.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Rooms\\RoomManager.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Rooms\\RoomManager.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Rooms\\RoomManager.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Rooms\\RoomManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:15:29.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "MovieService\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "MovieService\\Controllers\\RoomController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:49:11.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingManager.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Manager\\BookingManager.cs",
+              "RelativeDocumentMoniker": "BookingService\\Manager\\BookingManager.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Manager\\BookingManager.cs",
+              "RelativeToolTip": "BookingService\\Manager\\BookingManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:43:12.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Model\\Ticket.cs",
+              "RelativeDocumentMoniker": "BookingService\\Model\\Ticket.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Model\\Ticket.cs",
+              "RelativeToolTip": "BookingService\\Model\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:43:14.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoomDto.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Rooms\\Dto\\RoomDto.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Rooms\\Dto\\RoomDto.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Rooms\\Dto\\RoomDto.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Rooms\\Dto\\RoomDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:31:37.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SeatManager.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Seats\\SeatManager.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Seats\\SeatManager.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Seats\\SeatManager.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Seats\\SeatManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:15:50.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SeatController.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\SeatController.cs",
+              "RelativeDocumentMoniker": "MovieService\\Controllers\\SeatController.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\SeatController.cs",
+              "RelativeToolTip": "MovieService\\Controllers\\SeatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:49:29.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CinemaController.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\CinemaController.cs",
+              "RelativeDocumentMoniker": "MovieService\\Controllers\\CinemaController.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\CinemaController.cs",
+              "RelativeToolTip": "MovieService\\Controllers\\CinemaController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA1wCYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T04:53:32.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShowTimeManager.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\ShowTimes\\ShowTimeManager.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\ShowTimes\\ShowTimeManager.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\ShowTimes\\ShowTimeManager.cs",
+              "RelativeToolTip": "MovieService\\Manager\\ShowTimes\\ShowTimeManager.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwBUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T03:45:08.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateCinemaDto.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Cinemas\\Dto\\CreateCinemaDto.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Cinemas\\Dto\\CreateCinemaDto.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Cinemas\\Dto\\CreateCinemaDto.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Cinemas\\Dto\\CreateCinemaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:54:48.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\Gateway\\ocelot.json",
+              "RelativeDocumentMoniker": "Gateway\\ocelot.json",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\Gateway\\ocelot.json",
+              "RelativeToolTip": "Gateway\\ocelot.json",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-07T04:22:42.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CinemaManager.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Cinemas\\CinemaManager.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Cinemas\\CinemaManager.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Cinemas\\CinemaManager.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Cinemas\\CinemaManager.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIA6wCcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T15:11:10.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Genre.cs",
+              "RelativeDocumentMoniker": "MovieService\\Model\\Genre.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Genre.cs",
+              "RelativeToolTip": "MovieService\\Model\\Genre.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:27:37.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:50:56.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GenerController.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\GenerController.cs",
+              "RelativeDocumentMoniker": "MovieService\\Controllers\\GenerController.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Controllers\\GenerController.cs",
+              "RelativeToolTip": "MovieService\\Controllers\\GenerController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:07:31.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PagedResultRequestDto.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\Core\\Paging\\PagedResultRequestDto.cs",
+              "RelativeDocumentMoniker": "ShareLibrary\\Core\\Paging\\PagedResultRequestDto.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\Core\\Paging\\PagedResultRequestDto.cs",
+              "RelativeToolTip": "ShareLibrary\\Core\\Paging\\PagedResultRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T08:58:52.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieService\\Model\\Movie.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Movie.cs",
+              "RelativeToolTip": "MovieService\\Model\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:27:40.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PagedResultDto.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\Core\\Paging\\PagedResultDto.cs",
+              "RelativeDocumentMoniker": "ShareLibrary\\Core\\Paging\\PagedResultDto.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\Core\\Paging\\PagedResultDto.cs",
+              "RelativeToolTip": "ShareLibrary\\Core\\Paging\\PagedResultDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T08:59:00.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthUser.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\AuthService\\Model\\AuthUser.cs",
+              "RelativeDocumentMoniker": "AuthService\\Model\\AuthUser.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\AuthService\\Model\\AuthUser.cs",
+              "RelativeToolTip": "AuthService\\Model\\AuthUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:01:11.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Dockerfile",
+              "RelativeDocumentMoniker": "BookingService\\Dockerfile",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\BookingService\\Dockerfile",
+              "RelativeToolTip": "BookingService\\Dockerfile",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-07T04:47:47.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateOrUpdateMovieDto.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Movies\\Dto\\CreateOrUpdateMovieDto.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Movies\\Dto\\CreateOrUpdateMovieDto.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Movies\\Dto\\CreateOrUpdateMovieDto.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Movies\\Dto\\CreateOrUpdateMovieDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T10:56:52.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Cinema.cs",
+              "RelativeDocumentMoniker": "MovieService\\Model\\Cinema.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Model\\Cinema.cs",
+              "RelativeToolTip": "MovieService\\Model\\Cinema.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA0wBsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T04:55:34.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "MovieService\\MappingProfile.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\MappingProfile.cs",
+              "RelativeToolTip": "MovieService\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T03:44:28.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\AuthService\\Dockerfile",
+              "RelativeDocumentMoniker": "AuthService\\Dockerfile",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\AuthService\\Dockerfile",
+              "RelativeToolTip": "AuthService\\Dockerfile",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-07T04:44:51.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20251205110742_update_schema_db.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Infrastructure\\Migrations\\20251205110742_update_schema_db.cs",
+              "RelativeDocumentMoniker": "MovieService\\Infrastructure\\Migrations\\20251205110742_update_schema_db.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Infrastructure\\Migrations\\20251205110742_update_schema_db.cs",
+              "RelativeToolTip": "MovieService\\Infrastructure\\Migrations\\20251205110742_update_schema_db.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T04:38:36.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RabbitMQService.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\MessageBroker\\RabbitMQService.cs",
+              "RelativeDocumentMoniker": "ShareLibrary\\MessageBroker\\RabbitMQService.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\MessageBroker\\RabbitMQService.cs",
+              "RelativeToolTip": "ShareLibrary\\MessageBroker\\RabbitMQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:35:47.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RabbitProducer.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\MessageBroker\\RabbitProducer.cs",
+              "RelativeDocumentMoniker": "ShareLibrary\\MessageBroker\\RabbitProducer.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\MessageBroker\\RabbitProducer.cs",
+              "RelativeToolTip": "ShareLibrary\\MessageBroker\\RabbitProducer.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvy0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:35:49.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Movies\\Dto\\MovieDto.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Movies\\Dto\\MovieDto.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Movies\\Dto\\MovieDto.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Movies\\Dto\\MovieDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T03:59:53.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ShareLibrary",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\ShareLibrary.csproj",
+              "RelativeDocumentMoniker": "ShareLibrary\\ShareLibrary.csproj",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\ShareLibrary\\ShareLibrary.csproj",
+              "RelativeToolTip": "ShareLibrary\\ShareLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T03:44:17.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GenreManager.cs",
+              "DocumentMoniker": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Genres\\GenreManager.cs",
+              "RelativeDocumentMoniker": "MovieService\\Manager\\Genres\\GenreManager.cs",
+              "ToolTip": "D:\\Hoctap\\Microservice\\CGV\\SystemCinema\\MovieService\\Manager\\Genres\\GenreManager.cs",
+              "RelativeToolTip": "MovieService\\Manager\\Genres\\GenreManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:34:32.138Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 319,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 319,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

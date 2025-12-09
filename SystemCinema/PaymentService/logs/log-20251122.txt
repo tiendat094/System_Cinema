@@ -1,0 +1,1 @@
+[ 08:58:33.058 +07:00 ERR] PaymentService An error occurred using the connection to database 'PaymentDB' on server 'tcp://localhost:5432'.

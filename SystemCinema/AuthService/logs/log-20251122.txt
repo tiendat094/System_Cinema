@@ -1,0 +1,1 @@
+[ 09:19:51.453 +07:00 ERR] AuthService An error occurred using the connection to database 'AuthDB' on server 'tcp://localhost:5432'.

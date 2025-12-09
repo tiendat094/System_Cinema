@@ -1,0 +1,1 @@
+[ 23:45:59.749 +07:00 ERR] BookingService An error occurred using the connection to database 'BookingDB' on server 'tcp://localhost:5432'.
