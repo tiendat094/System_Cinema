@@ -18,6 +18,7 @@ builder.Host.UseSerilog((context, services, configuration) =>
 {
     LoggingConfiguration.ConfigureShared(context.Configuration, configuration);
 });
+
 builder.Services.AddControllers();
 builder.Services.AddServiceInfrastructure<MovieContext>(builder.Configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -31,6 +32,7 @@ builder.Services.AddTransient<IRoomManager, RoomManager>();
 builder.Services.AddTransient<ISeatManager, SeatManager>();
 builder.Services.AddTransient<IShowTimeManager, ShowTimeManager>();
 builder.Services.AddTransient<IGenreManager, GenreManager>();
+builder.Services.AddGrpc();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,0 +1,38 @@
+﻿syntax = "proto3";
+option csharp_namespace = "MovieGrpc";
+
+service MovieService{
+	rpc GetShowTimeById (GetShowTimeRequest) returns (ShowTimeReply);
+
+	rpc GetSeatByIds (GetSeatRequest) returns (SeatReply);
+}
+
+///Showtime
+
+message GetShowTimeRequest{
+	string showTimeId = 1;
+}
+
+message ShowTimeReply{
+	string movieTitle = 1;
+	string cinemaName = 2;
+	string roomName = 3;
+	string startTime = 4;
+}
+///seat
+
+message GetSeatRequest{
+	repeated string movieIds = 1;
+}
+
+message SeatReply{
+	repeated SeatItem seats = 1;
+}
+message SeatItem{
+	string id =1;
+	string row =2;
+	int32 number =3;
+	int32 type = 4;
+	double price = 5;
+	int32 status = 6;
+}

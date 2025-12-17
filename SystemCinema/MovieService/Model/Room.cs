@@ -12,7 +12,7 @@ namespace MovieService.Model
         public string Name { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdateAt { get; set; }
-        public int TotalSeat => Seats.Count;
+        public int TotalSeat { set; get; }
         public Guid CinemaId { get; set; }
         [ForeignKey(nameof(CinemaId))]
         public Cinema Cinema { get; set; }

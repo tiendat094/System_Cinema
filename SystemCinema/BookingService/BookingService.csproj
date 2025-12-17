@@ -19,10 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ShareLibrary\ShareLibrary.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Manager\Dto\" />
+	  
   </ItemGroup>
 
 </Project>

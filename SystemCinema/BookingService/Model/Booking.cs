@@ -7,16 +7,14 @@ namespace BookingService.Model
     {
         [Key]
         public Guid Id { get; set; }
-
         public Guid UserId { get; set; }
-
-        public DateTime BookingTime { get; set; } = DateTime.UtcNow;
-
-        [MaxLength(20)]
         public BookingStatus Status { get; set; } // PENDING, CONFIRMED, CANCELED
-
-        public ICollection<Ticket> Tickets { get; set; }
-        public ICollection<BookingSeat> Seats { get; set; }
+        public string? PaymentId { get; set; }
+        public string? QrCode { get; set; }
+        public string ShowTimeId {  get; set; }
+        public List<string> Seats { get; set; }
+        public DateTime? LastUpdated { get; set;}
+        public DateTime CreateAt { get; set; }
     }
 
     public enum BookingStatus 

@@ -1,4 +1,7 @@
+using PaymentService.Config;
 using PaymentService.Infrastructure.Data;
+using PaymentService.Manager;
+using PaymentService.Model;
 using Serilog;
 using ShareLibrary.DB;
 using ShareLibrary.Logs;
@@ -15,6 +18,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.Configure<MomoOptionModel>(builder.Configuration.GetSection("MomoAPI"));
+builder.Services.AddScoped<IMomoService, MomoService>();
+
 
 var app = builder.Build();
 

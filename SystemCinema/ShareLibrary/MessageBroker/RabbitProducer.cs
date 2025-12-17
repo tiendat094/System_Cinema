@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal;
 using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
@@ -17,20 +18,20 @@ namespace ShareLibrary.MessageBroker
     
     public class RabbitProducer : IMessageProducer
     {
-        private readonly string _connectionString = "";
+        private readonly IRabbitMqConnection _connection;
+        public RabbitProducer(IRabbitMqConnection connection)
+        {
+            _connection = connection;
+        }
 
         public async Task Publish<T>(T message, string exchangeName, string routingKey = "")
         {
-            var factory = new ConnectionFactory()
-            {
-                Uri = new Uri(_connectionString)
-            };
-            using var connection = await factory.CreateConnectionAsync();
-            using var channel = await connection.CreateChannelAsync();
+            using var channel =await _connection.CreateModel();
 
-           await channel.ExchangeDeclareAsync(exchange: exchangeName, type: ExchangeType.Direct);
+           await channel.ExchangeDeclareAsync(exchange: exchangeName, type: ExchangeType.Fanout);
            var json = JsonConvert.SerializeObject(message);
            var body = Encoding.UTF8.GetBytes(json);
+          
 
            await channel.BasicPublishAsync(
                 exchange: exchangeName,

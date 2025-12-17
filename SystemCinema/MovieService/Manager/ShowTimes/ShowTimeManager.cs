@@ -1,11 +1,14 @@
 ﻿using AutoMapper;
+using Grpc.Core;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using MovieGrpc;
 using MovieService.Infrastructure.Data;
 using MovieService.Manager.Cinemas.Dto;
 using MovieService.Model;
 using ShareLibrary.Core.Mapper.Filter;
 using ShareLibrary.Core.Paging;
+using ShowTimeGrpc;
 
 namespace MovieService.Manager.ShowTimes
 {
@@ -15,7 +18,7 @@ namespace MovieService.Manager.ShowTimes
         Task CreateShowTime(ShowTimeDto input);
         Task DeleteShowTime(Guid Id);
     }
-    public class ShowTimeManager : IShowTimeManager
+    public class ShowTimeManager : MovieGrpc.MovieService.MovieServiceBase,IShowTimeManager
     {
         private readonly MovieContext _context;
         private readonly IMapper _mapper;
@@ -25,6 +28,31 @@ namespace MovieService.Manager.ShowTimes
             _mapper = mapper;
         }
 
+        public override async Task<ShowTimeReply> GetShowTimeById(GetShowTimeRequest request, ServerCallContext context)
+        {
+            if(!Guid.TryParse(request.ShowTimeId, out Guid showTimeGuid))
+            {
+                throw new RpcException(new Status(StatusCode.InvalidArgument, "Dinhj dang sai"));
+            }
+            var showTime =await _context.ShowTimes
+                .Include(x => x.Movie)
+                .Include(y => y.Room)
+                   .ThenInclude(z => z.Cinema)
+                .FirstOrDefaultAsync(s => s.Id == showTimeGuid);
+            if (showTime == null)
+            {
+                throw new Exception($"not found showtime with Id : {request.ToString()}");
+            }
+
+            return new ShowTimeReply
+            {
+                MovieTitle = showTime.Movie?.Title ?? string.Empty,
+                CinemaName = showTime.Room.Cinema.Name,
+                RoomName = showTime.Room.Name,
+                StartTime = showTime.StartTime.ToString(),
+            };
+
+        }
         public async Task CreateShowTime(ShowTimeDto input)
         {
             var model = _mapper.Map<ShowTime>(input);

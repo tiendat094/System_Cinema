@@ -52,10 +52,10 @@ namespace MovieService.Controllers
         {
            return await _movieManager.GetShowTimeByMovieId(movieId);
         }
-        [HttpGet("{id}")]
-        public async Task<Movie> GetMovieById(string id)
+        [HttpGet("{movieId}")]
+        public async Task<Movie> GetMovieById(string movieId)
         {
-          return  await _movieManager.GetMovieById(id);
+          return  await _movieManager.GetMovieById(movieId);
         }
     }
 }

@@ -21,22 +21,22 @@ namespace MovieService.Controllers
 
         [HttpGet("getAllPaging")]
         public async Task<PagedResultDto<ShowTimeDto>> GetAllPaging(
-            [FromQuery] PagedResultRequestDto input,      // ⬅️ FIX 1: Must explicitly bind complex types from Query
-            [FromQuery] List<FilterClause> clauses)       // ⬅️ FIX 1: Must explicitly bind complex types from Query
+            [FromQuery] PagedResultRequestDto input,      
+            [FromQuery] List<FilterClause> clauses)       
         {
             return await _showTimeManager.GetAllPaging(input, clauses);
         }
 
         [HttpPost("create")]
         public async Task CreateShowTime(
-            [FromBody] ShowTimeDto input) // Best practice: explicitly bind DTO from Body
+            [FromBody] ShowTimeDto input) 
         {
             await _showTimeManager.CreateShowTime(input);
         }
 
-        [HttpDelete("delete/{id}")] // ⬅️ FIX 2: Add route segment for the ID
+        [HttpDelete("delete/{id}")]
         public async Task DeleteShowTime(
-            [FromRoute] Guid id) // ⬅️ FIX 2: Bind simple type from the Route Path
+            [FromRoute] Guid id) 
         {
             await _showTimeManager.DeleteShowTime(id);
         }

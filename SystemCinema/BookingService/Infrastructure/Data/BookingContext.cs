@@ -13,8 +13,8 @@ namespace BookingService.Infrastructure.Data
 
         // --- DbSet cho các Entity thuộc sở hữu của Booking Service ---
         public DbSet<Booking> Bookings { get; set; }
-        public DbSet<Ticket> Tickets { get; set; }
-        public DbSet<BookingSeat> BookingSeats { get; set; }
+      //  public DbSet<Ticket> Tickets { get; set; }
+       // public DbSet<BookingSeat> BookingSeats { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,18 +24,18 @@ namespace BookingService.Infrastructure.Data
             modelBuilder.Entity<Booking>()
                 .Property(b => b.Status);
 
-            modelBuilder.Entity<Ticket>()
+    /*        modelBuilder.Entity<Ticket>()
                 .HasOne(t => t.Booking)
                 .WithMany(b => b.Tickets)
                 .HasForeignKey(t => t.BookingId)
-                .IsRequired();
+                .IsRequired();*/
 
-            modelBuilder.Entity<BookingSeat>()
+       /*     modelBuilder.Entity<BookingSeat>()
                 .HasOne(bs => bs.Booking)
                 .WithMany(b => b.Seats)
                 .HasForeignKey(bs => bs.BookingId)
                 .IsRequired();
-
+*/
         }
     }
 }

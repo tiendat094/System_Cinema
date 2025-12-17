@@ -21,5 +21,17 @@ namespace MovieService.Controllers
             await _seatManager.CreateSeat(seat);
         }
 
+        [HttpPost("/createSeats")]
+        public async Task CreateListSeat(List<SeatDto> seat)
+        {
+            await _seatManager.CreateListSeat(seat);
+        }
+
+        [HttpPost("/getSeatByRoomId")]
+        public async Task<List<SeatDto>> GetSeatByRoomId(string roomId)
+        {
+            return await _seatManager.GetSeatByRoomId(roomId);
+        }
+
     }
 }

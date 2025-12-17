@@ -10,7 +10,7 @@ namespace PaymentService.Model
         public Guid BookingId { get; set; }
 
         [MaxLength(20)]
-        public string PaymentMethod { get; set; } // MOMO, VISA...
+        public string? PaymentMethod { get; set; } // MOMO, VISA...
 
         [MaxLength(20)]
         public PaymentStatus Status { get; set; } // SUCCESS, FAILED, PENDING
