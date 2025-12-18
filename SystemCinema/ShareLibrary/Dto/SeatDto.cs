@@ -13,7 +13,7 @@ namespace ShareLibrary.Dto
         public int Number {  set; get; }
         public SeatType Type { set; get; }
         public double Price { set; get; }
-        public SeatStatus status {  set; get; }
+        public SeatStatus Status {  set; get; }
     }
 
     public enum SeatType

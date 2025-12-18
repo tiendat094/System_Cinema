@@ -8,7 +8,7 @@ using MovieService.Manager.Cinemas.Dto;
 using MovieService.Model;
 using ShareLibrary.Core.Mapper.Filter;
 using ShareLibrary.Core.Paging;
-using ShowTimeGrpc;
+using MovieGrpc;
 
 namespace MovieService.Manager.ShowTimes
 {

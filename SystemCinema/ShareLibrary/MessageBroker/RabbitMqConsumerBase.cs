@@ -16,15 +16,26 @@ namespace ShareLibrary.MessageBroker
         private IChannel _channel;
         private IRabbitMqConnection _connection;
         private readonly string _queueName;
-        public RabbitMqConsumerBase(IRabbitMqConnection connection, string queueName)
+        private readonly string _exchangeName;
+        private readonly string _routingKey;
+        private readonly string _exchangeType;
+
+        public RabbitMqConsumerBase(IRabbitMqConnection connection
+            , string queueName,
+            string exchangeName,
+            string routingKey = "",
+            string exchangeType = ExchangeType.Fanout)
         {
             _connection = connection;
             _queueName = queueName;
+            _exchangeName = exchangeName;
+            _routingKey = routingKey;
+            _exchangeType = exchangeType;
         }
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             _channel = await _connection.CreateModel();
-            var deadLetterExchageName = $"{_queueName}";
+            var deadLetterExchageName = $"{_queueName}.dlx.exchange";
             var deadLetterQueueName = $"{_queueName}.dlq";
             var routingKey = "dead-letter";
 
@@ -40,7 +51,10 @@ namespace ShareLibrary.MessageBroker
                 { "x-dead-letter-routing-key", routingKey }
             };
 
+            await _channel.ExchangeDeclareAsync(_exchangeName, type: _exchangeType);
+
             await _channel.QueueDeclareAsync(queue: _queueName, durable: true, exclusive: false, autoDelete: false, arguments: arguments);
+            await _channel.QueueBindAsync(_queueName,_exchangeType, routingKey: routingKey);
             await _channel.BasicQosAsync(prefetchCount: 1, prefetchSize: 0, global: false);
 
             var consumer = new AsyncEventingBasicConsumer(_channel);
@@ -64,8 +78,9 @@ namespace ShareLibrary.MessageBroker
                   await  _channel.BasicNackAsync(deliveryTag: ea.DeliveryTag, multiple: false, requeue: false);
                 }
 
-               await _channel.BasicConsumeAsync(queue: _queueName, autoAck: false,consumer: consumer);
+              
             };
+            await _channel.BasicConsumeAsync(queue: _queueName, autoAck: false,consumer: consumer);
         }
 
         protected abstract Task ProcessMessageAsync(T message);
